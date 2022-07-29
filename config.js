@@ -12,11 +12,7 @@ config.https = {
   port: 443
 };
 
-config.idm = {
-  host: 'account.lab.fiware.org',
-  port: 80,
-  ssl: false
-};
+config.idm.host = 'https://account.lab.fiware.org';
 
 config.app = {
   host: 'www.google.com',
@@ -92,5 +88,7 @@ config.error_template = `{
     "detail": "{{message}}"
   }`;
 config.error_content_type = 'application/json';
+
+config.check_permissions = false;
 
 module.exports = config;
