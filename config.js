@@ -13,14 +13,14 @@ config.https = {
 };
 
 config.idm = {
-  host: 'localhost',
-  port: 3000,
+  host: 'account.lab.fiware.org',
+  port: 80,
   ssl: false
 };
 
 config.app = {
-  host: 'localhost',
-  port: '3002',
+  host: 'www.google.com',
+  port: '80',
   ssl: false // Use true if the app server listens in https
 };
 
@@ -31,9 +31,9 @@ config.organizations = {
 
 // Credentials obtained when registering PEP Proxy in app_id in Account Portal
 config.pep = {
-  app_id: 'c365f878-a348-4584-8ac4-7e940697e1b6',
-  username: 'pep_proxy_7f270eda-17ed-4a49-b9fc-2f6f68490782',
-  password: 'pep_proxy_6a079689-6d4d-466c-bfd9-d2a0af4c6196',
+  app_id: 'b3f9b92963db48b5a49e6225913588d7',
+  username: 'pep_proxy_398d991abbe04baab8581b38dfeb4e3f',
+  password: '91088379b6c8434997a16698acb89aba',
   token: {
     secret: '' // Secret must be configured in order validate a jwt
   },
@@ -57,8 +57,8 @@ config.authorization = {
   header: undefined, // NGSILD-Tenant|fiware-service
   location: {
     protocol: 'http',
-    host: 'localhost',
-    port: 8080,
+    host: 'account.lab.fiware.org',
+    port: 80,
     path: ''
   },
   azf: {
