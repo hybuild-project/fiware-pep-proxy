@@ -3,7 +3,7 @@ var config = {};
 
 config.idm.host = 'https://account.lab.fiware.org';
 
-config.app.host = 'www.google.com';
+config.app.host = 'https://fiware.zeldalegends.repl.co';
 config.app.port = '80';
 
 // Credentials obtained when registering PEP Proxy in app_id in Account Portal
